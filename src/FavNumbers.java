@@ -4,6 +4,7 @@ public class FavNumbers
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
+
         int favNum = 0;
         double favDou = 0.0;
 

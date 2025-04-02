@@ -1,3 +1,7 @@
+// Kaden Jain
+// Safe Input
+// Completed
+
 import java.util.Scanner;
 
 public class SafeInput {
@@ -75,7 +79,7 @@ public class SafeInput {
                 result = pipe.nextInt();;
                 pipe.nextLine();
 
-                if(result >= low && result <+ high) {
+                if(result >= low && result <= high) {
                     done = true;
                 }
                 else {
